@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="contact-us.css" />
+  </head>
+  <body class="contact-scrollbar">
+    <div class="contact-nav">
+      <div class="nav-button">
+        <span>
+          <a href="/"> <i class="fa-solid fa-arrow-left"></i> Home</a>
+        </span>
+      </div>
+      <div class="nav-button">
+        <span
+          ><a href="/about">About <i class="fa-solid fa-arrow-right"></i></a
+        ></span>
+      </div>
+    </div>
+    <div class="contact-form-page">
+      <h1>Contact Us</h1>
+      <div class="contact-container">
+        <div class="main">
+          <div class="content">
+            <h2>Keep in Touch</h2>
+            <form action="#" method="post">
+              <input type="text" name="name" placeholder="Enter Your Name" />
+
+              <input type="text" name="gender" id="gender" placeholder="Specify your Gender" />
+
+              <input type="text" name="name" placeholder="Enter Your Age" />
+
+              <input type="email" name="name" placeholder="Enter Your Email" />
+              <input type="text" name="contact"  placeholder="Enter Your Phone Number" />
+
+              <!-- <label for="dropdown">Influencer Type</label> -->
+              <select name="influencer-type" id="dropdown">
+                <option value="type">Influencer Type</option>
+                <option value="new">New</option>
+                <option value="experienced">Experienced</option>
+              </select>
+
+              <input type="text" name="insta-id" placeholder="Enter Your Instagram ID" />
+              <textarea name="address" placeholder="Your Address"></textarea>
+              <button type="submit" class="btn"> Send <i class="fas fa-paper-plane"></i> </button>
+            </form>
+          </div>
+          <div class="form-img">
+            <img src="./images/bg1.png" alt="contact-us-background" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
