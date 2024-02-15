@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About</title>
+    <link rel="stylesheet" href="./css/about.css" />
+  </head>
+  <body>
+    <!-- Modal -->
+    <div id="about-modal" class="modal">
+      <div class="groups">
+        <div class="group-1">
+          <div class="layer-1 dbg flex-center">
+            <div class="frame-picture"></div>
+            <div style="background: wheat" class="about-picture"></div>
+          </div>
+        </div>
+        <div class="group-2">
+          <div class="close-section" onclick="closeModal();">
+            <div class="close-container">
+              <div class="leftright"></div>
+              <div class="rightleft"></div>
+              <label class="close">Close</label>
+            </div>
+          </div>
+          <div class="layer-1 lbg flex-center">
+            <div class="layer-content">
+              <h3 style="margin-bottom: 15px  " class="layer-1-h3">Influencer'z Hub</h3>
+              <h6 style="margin-bottom: 50px"></h6>
+              <p style="margin-bottom: 15px; font-size: 18px;">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Corrupti possimus iusto vitae quaerat suscipit eveniet fugiat
+                iste! Minus reiciendis quasi totam. Fugit voluptatum, totam ad
+                suscipit incidunt commodi sit odit nihil nemo aspernatur,
+                molestias modi et iste animi, placeat itaque. Natus culpa
+                aperiam ducimus? Tempore esse accusamus commodi suscipit odit!
+              </p>
+
+              <p style="margin-bottom: 15px; font-size: 18px;">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
+                at magni nihil id, adipisci nesciunt temporibus quidem alias
+                eaque animi, magnam assumenda! Dignissimos, nobis perferendis
+                doloremque itaque quisquam quis neque fuga officiis consequatur
+                qui dolores laborum error. Quibusdam odit debitis explicabo in
+                cum facilis inventore placeat iste exercitationem. Enim, vel.
+              </p>
+
+              <p style="margin-bottom: 50px; font-size: 18px;">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Necessitatibus repudiandae temporibus laudantium facilis commodi
+                voluptas qui doloribus sunt. Doloremque libero, qui iste cum
+                sequi sed adipisci ipsum ipsam voluptatem, rerum quo nihil
+              </p>
+              <div class="btn-arrow-2 light" onclick="switchModal();">
+                <div id="modalSwitchButton" ><span>Click here for any Query</span></div>
+              </div>
+            </div>
+          </div>
+          <div class="layer-2 dbg flex-center">
+            <div class="layer-content">
+              <h3 style="margin-bottom: 10px">contact Us</h3>
+              <!-- <h6 style="margin-bottom: 50px">contacter</h6> -->
+
+              <div class="form-group">
+                <input type="text" id="name" required />
+                <label for="name">Name</label>
+              </div>
+              <div class="form-group">
+                <input type="email" id="email" required />
+                <label for="email">E-mail</label>
+              </div>
+              <div class="form-group" style="margin-bottom: 50px">
+                <textarea id="message" cols="30" rows="10"></textarea>
+                <label for="message">Message</label>
+              </div>
+
+              <div class="btn-arrow linear-bg-1 form-smt-btn">Send</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Header -->
+    <div class="header">
+      <div class="content">
+        <div class="logo"></div>
+        <div class="title">
+          <h1 style="margin-bottom: 10px">About <span>US</span></h1>
+          <p style="letter-spacing: 1px"><span>Want</span> to Know More? about us !</p>
+          <hr />
+          <div class="btn-arrow linear-bg-1" onclick="activeModal();">
+            <button  class="about-btn"> <span class="about-btn-span">Click Me</span></button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./js/about.js"></script>
+  </body>
+</html>

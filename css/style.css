@@ -1515,6 +1515,13 @@ img:nth-child(5) {
 
 
 
+.abt-img-inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
 
 /* Contact Us CSS */
 
